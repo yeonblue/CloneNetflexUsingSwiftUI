@@ -11,7 +11,7 @@ import SwiftUI
 struct CloneNetflexProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
