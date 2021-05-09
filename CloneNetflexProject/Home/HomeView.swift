@@ -15,7 +15,7 @@ struct HomeView: View {
                 .edgesIgnoringSafeArea(.all)
             
             // main
-            ScrollView(/*@START_MENU_TOKEN@*/.vertical/*@END_MENU_TOKEN@*/, showsIndicators: false) {
+            ScrollView(showsIndicators: false) {
                 LazyVStack { // 필요할 때만 리로드
                     ForEach(vm.allCategories, id: \.self) { category in
                         VStack {

@@ -17,6 +17,7 @@
 		457758A42647BD6D0031FCA3 /* StandardHomeMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457758A32647BD6D0031FCA3 /* StandardHomeMovie.swift */; };
 		457758A72647BDC50031FCA3 /* GlobalHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457758A62647BDC50031FCA3 /* GlobalHelpers.swift */; };
 		457758A92647C0C60031FCA3 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457758A82647C0C60031FCA3 /* HomeViewModel.swift */; };
+		457758AC2647F1970031FCA3 /* TopMoviePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457758AB2647F1970031FCA3 /* TopMoviePreview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		457758A32647BD6D0031FCA3 /* StandardHomeMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardHomeMovie.swift; sourceTree = "<group>"; };
 		457758A62647BDC50031FCA3 /* GlobalHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHelpers.swift; sourceTree = "<group>"; };
 		457758A82647C0C60031FCA3 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		457758AB2647F1970031FCA3 /* TopMoviePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoviePreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				4577589A2647B6A10031FCA3 /* HomeView.swift */,
 				457758A82647C0C60031FCA3 /* HomeViewModel.swift */,
 				457758A32647BD6D0031FCA3 /* StandardHomeMovie.swift */,
+				457758AB2647F1970031FCA3 /* TopMoviePreview.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				457758A92647C0C60031FCA3 /* HomeViewModel.swift in Sources */,
 				4577588E2647B4460031FCA3 /* ContentView.swift in Sources */,
 				457758A42647BD6D0031FCA3 /* StandardHomeMovie.swift in Sources */,
+				457758AC2647F1970031FCA3 /* TopMoviePreview.swift in Sources */,
 				457758A12647BA8C0031FCA3 /* Movie.swift in Sources */,
 				4577588C2647B4460031FCA3 /* CloneNetflexProjectApp.swift in Sources */,
 			);
