@@ -20,17 +20,41 @@ struct TopMoviePreview: View {
         
             VStack {
                 Spacer()
+                
                 HStack {
                     ForEach(movie.categories, id: \.self) { category in
                         Text(category)
+                            .bold()
+                        
                         if !isCategoryLast(category) {
                             Image(systemName: "circle.fill")
                                 .foregroundColor(.blue)
                                 .font(.system(size: 3))
                         }
-                    }
+                    }.padding(.bottom, 10)
                 }
-                Text(movie.name)
+                HStack {
+                    Spacer()
+                    SmallVerticalButton(text: "My List",
+                                        isOnImage: "checkmark",
+                                        isOffImage: "plus",
+                                        isOn: true) {
+                        // action
+                    }
+                    Spacer()
+                    WhiteBackGroundButton(text: "Play",
+                                          imageName: "play.fill") {
+                        // action
+                    }.frame(width: 120)
+                    Spacer()
+                    SmallVerticalButton(text: "Info",
+                                        isOnImage: "info.circle",
+                                        isOffImage: "info.circle",
+                                        isOn: true) {
+                        // action
+                    }
+                    Spacer()
+                }
 
             }
             .foregroundColor(.white)
