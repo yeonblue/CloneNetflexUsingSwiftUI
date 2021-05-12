@@ -55,8 +55,10 @@ struct TopMoviePreview: View {
                     }
                     Spacer()
                 }
-
             }
+            .background(LinearGradient.blackOpacityGradient
+                            .padding(.top, 300)
+            )
             .foregroundColor(.white)
         }
     }

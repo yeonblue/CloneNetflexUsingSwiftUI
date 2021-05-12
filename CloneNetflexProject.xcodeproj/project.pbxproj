@@ -20,6 +20,7 @@
 		457758AC2647F1970031FCA3 /* TopMoviePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457758AB2647F1970031FCA3 /* TopMoviePreview.swift */; };
 		45FEA678264AA6A000634E41 /* SmallVerticalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FEA677264AA6A000634E41 /* SmallVerticalButton.swift */; };
 		45FEA67A264AB14900634E41 /* WhiteBackGroundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FEA679264AB14900634E41 /* WhiteBackGroundButton.swift */; };
+		45FEA67C264BEC7C00634E41 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FEA67B264BEC7C00634E41 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		457758AB2647F1970031FCA3 /* TopMoviePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoviePreview.swift; sourceTree = "<group>"; };
 		45FEA677264AA6A000634E41 /* SmallVerticalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallVerticalButton.swift; sourceTree = "<group>"; };
 		45FEA679264AB14900634E41 /* WhiteBackGroundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteBackGroundButton.swift; sourceTree = "<group>"; };
+		45FEA67B264BEC7C00634E41 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				457758A62647BDC50031FCA3 /* GlobalHelpers.swift */,
+				45FEA67B264BEC7C00634E41 /* Extension.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 				45FEA67A264AB14900634E41 /* WhiteBackGroundButton.swift in Sources */,
 				4577589B2647B6A10031FCA3 /* HomeView.swift in Sources */,
 				457758A92647C0C60031FCA3 /* HomeViewModel.swift in Sources */,
+				45FEA67C264BEC7C00634E41 /* Extension.swift in Sources */,
 				4577588E2647B4460031FCA3 /* ContentView.swift in Sources */,
 				457758A42647BD6D0031FCA3 /* StandardHomeMovie.swift in Sources */,
 				457758AC2647F1970031FCA3 /* TopMoviePreview.swift in Sources */,
